@@ -1,76 +1,16 @@
 {
-  "version": "0.28.0-test.202611201854",
+  "version": "0.28.0-test.202611201903",
   "channel": "stable",
-  "date": "2026-11-20 18:55",
+  "date": "2026-11-20 19:03",
   "min_launcher": 1,
   "components": [
     {
       "id": "programme",
-      "version": "0.28.0-test.202611201854",
+      "version": "0.28.0-test.202611201903",
       "when": "always",
       "dest": "app/{version}",
       "kind": "packs",
       "entries": [
-        {
-          "path": "_internal/_sounddevice_data/portaudio-binaries/.github/dependabot.yml",
-          "sha256": "883b95e3be554fbadd92b315e4a8c6ea6ca688b64924e22dd61222b07f683507",
-          "size": 118,
-          "pack": "_sounddevice_data-a62d520632da"
-        },
-        {
-          "path": "_internal/_sounddevice_data/portaudio-binaries/.github/workflows/build-libs.yml",
-          "sha256": "a82d8497e8a33091b17689b44934c330b9c827bb1ffef5ee7ad492ced2c354db",
-          "size": 4035,
-          "pack": "_sounddevice_data-a62d520632da"
-        },
-        {
-          "path": "_internal/_sounddevice_data/portaudio-binaries/README.md",
-          "sha256": "b3cb053566b6f38c38bdf4822e53f8f8a2a377e05c503fdd69c52e5d1c6c104c",
-          "size": 974,
-          "pack": "_sounddevice_data-a62d520632da"
-        },
-        {
-          "path": "_internal/_sounddevice_data/portaudio-binaries/libportaudio.dylib",
-          "sha256": "f48bedb7f4f79c0ca050776afe943458555db7341e0dae00511d109ccde907c0",
-          "size": 236064,
-          "pack": "_sounddevice_data-a62d520632da"
-        },
-        {
-          "path": "_internal/_sounddevice_data/portaudio-binaries/libportaudio32bit-asio.dll",
-          "sha256": "b96d817debe1747d8ca3a5e5b57d1021bf0207ebbd907242331357b97c65e6d7",
-          "size": 280576,
-          "pack": "_sounddevice_data-a62d520632da"
-        },
-        {
-          "path": "_internal/_sounddevice_data/portaudio-binaries/libportaudio32bit.dll",
-          "sha256": "3d27383a00397dae64b266189791ac20f84a19820778724e05705c2f6012dfd9",
-          "size": 260608,
-          "pack": "_sounddevice_data-a62d520632da"
-        },
-        {
-          "path": "_internal/_sounddevice_data/portaudio-binaries/libportaudio64bit-asio.dll",
-          "sha256": "e38618a0cb83a0287bee3b8bd68a710ae0d34178217ef4fa21ed56f765111943",
-          "size": 343040,
-          "pack": "_sounddevice_data-a62d520632da"
-        },
-        {
-          "path": "_internal/_sounddevice_data/portaudio-binaries/libportaudio64bit.dll",
-          "sha256": "ec080194f01e4095c7fb43dbd7ed05af922c5b34295056a9ff56782741d65481",
-          "size": 307712,
-          "pack": "_sounddevice_data-a62d520632da"
-        },
-        {
-          "path": "_internal/_sounddevice_data/portaudio-binaries/libportaudioarm64-asio.dll",
-          "sha256": "57b7826fd3883daabbb8951814655a4ec253acb822c0ff6ce4002da9463064f5",
-          "size": 316416,
-          "pack": "_sounddevice_data-a62d520632da"
-        },
-        {
-          "path": "_internal/_sounddevice_data/portaudio-binaries/libportaudioarm64.dll",
-          "sha256": "e39e95e95c0cb262c70ca4e676e440cf34be5643fe5a31cdfe23e8ab6f1422cb",
-          "size": 293888,
-          "pack": "_sounddevice_data-a62d520632da"
-        },
         {
           "path": "_internal/av-19.0.2.dist-info/DELVEWHEEL",
           "sha256": "2979c28d99931010ecb26609f95bc7c5a29eb5674fe315579fe8f274d3c26c72",
@@ -2209,9 +2149,9 @@
         },
         {
           "path": "SimCoachApp.exe",
-          "sha256": "6b0483155d8fb9a731f988f595b165e76f07dc2944012105aee1656cc8c7880e",
+          "sha256": "813828b752f82932b8b94886ce07a30d5bb345d96fa6584b0b2d82c0240ca05c",
           "size": 6235648,
-          "pack": "fenetre-feb5b704f4b5"
+          "pack": "fenetre-c1f936b34d5f"
         },
         {
           "path": "_internal/hf_xet/hf_xet.pyd",
@@ -2491,9 +2431,9 @@
         },
         {
           "path": "SimCoach.exe",
-          "sha256": "a3b4a045153600549f1ea1669ee3753782a0bb5b89f013888312e0066c3097dd",
+          "sha256": "3da2f3ae1644f39acd4550cff195c5ccd67b349fa6f3721ba5eaba0790282359",
           "size": 12702487,
-          "pack": "moteur-7a163cced7b8"
+          "pack": "moteur-a7adc9fac6a5"
         },
         {
           "path": "_internal/numpy-2.5.5.dist-info/DELVEWHEEL",
@@ -5310,10 +5250,70 @@
           "pack": "pygame-999ec6cea565"
         },
         {
+          "path": "_internal/_sounddevice_data/portaudio-binaries/.github/dependabot.yml",
+          "sha256": "883b95e3be554fbadd92b315e4a8c6ea6ca688b64924e22dd61222b07f683507",
+          "size": 118,
+          "pack": "sounddevice_data-a62d520632da"
+        },
+        {
+          "path": "_internal/_sounddevice_data/portaudio-binaries/.github/workflows/build-libs.yml",
+          "sha256": "a82d8497e8a33091b17689b44934c330b9c827bb1ffef5ee7ad492ced2c354db",
+          "size": 4035,
+          "pack": "sounddevice_data-a62d520632da"
+        },
+        {
+          "path": "_internal/_sounddevice_data/portaudio-binaries/README.md",
+          "sha256": "b3cb053566b6f38c38bdf4822e53f8f8a2a377e05c503fdd69c52e5d1c6c104c",
+          "size": 974,
+          "pack": "sounddevice_data-a62d520632da"
+        },
+        {
+          "path": "_internal/_sounddevice_data/portaudio-binaries/libportaudio.dylib",
+          "sha256": "f48bedb7f4f79c0ca050776afe943458555db7341e0dae00511d109ccde907c0",
+          "size": 236064,
+          "pack": "sounddevice_data-a62d520632da"
+        },
+        {
+          "path": "_internal/_sounddevice_data/portaudio-binaries/libportaudio32bit-asio.dll",
+          "sha256": "b96d817debe1747d8ca3a5e5b57d1021bf0207ebbd907242331357b97c65e6d7",
+          "size": 280576,
+          "pack": "sounddevice_data-a62d520632da"
+        },
+        {
+          "path": "_internal/_sounddevice_data/portaudio-binaries/libportaudio32bit.dll",
+          "sha256": "3d27383a00397dae64b266189791ac20f84a19820778724e05705c2f6012dfd9",
+          "size": 260608,
+          "pack": "sounddevice_data-a62d520632da"
+        },
+        {
+          "path": "_internal/_sounddevice_data/portaudio-binaries/libportaudio64bit-asio.dll",
+          "sha256": "e38618a0cb83a0287bee3b8bd68a710ae0d34178217ef4fa21ed56f765111943",
+          "size": 343040,
+          "pack": "sounddevice_data-a62d520632da"
+        },
+        {
+          "path": "_internal/_sounddevice_data/portaudio-binaries/libportaudio64bit.dll",
+          "sha256": "ec080194f01e4095c7fb43dbd7ed05af922c5b34295056a9ff56782741d65481",
+          "size": 307712,
+          "pack": "sounddevice_data-a62d520632da"
+        },
+        {
+          "path": "_internal/_sounddevice_data/portaudio-binaries/libportaudioarm64-asio.dll",
+          "sha256": "57b7826fd3883daabbb8951814655a4ec253acb822c0ff6ce4002da9463064f5",
+          "size": 316416,
+          "pack": "sounddevice_data-a62d520632da"
+        },
+        {
+          "path": "_internal/_sounddevice_data/portaudio-binaries/libportaudioarm64.dll",
+          "sha256": "e39e95e95c0cb262c70ca4e676e440cf34be5643fe5a31cdfe23e8ab6f1422cb",
+          "size": 293888,
+          "pack": "sounddevice_data-a62d520632da"
+        },
+        {
           "path": "_internal/base_library.zip",
-          "sha256": "db5da0d3616db43e6e48cc285a2826671f43515175a99a68ac93822b51a29228",
+          "sha256": "38a238c5f436dd24f93849e610cd7e28c6cd2cc4f9fe32e553d311dd3c5a9d32",
           "size": 1396401,
-          "pack": "stdlib-f9cb655dff7b"
+          "pack": "stdlib-43a864910c20"
         },
         {
           "path": "_internal/tokenizers-0.23.3.dist-info/INSTALLER",
@@ -5548,9 +5548,9 @@
           "sha256": "e7b6f0390e10693c3999cddba0d3bd570c02579210c5daebd1abdbf31afc2ced",
           "size": 2055180
         },
-        "fenetre-feb5b704f4b5": {
-          "url": "https://github.com/SimCoachDev/simcoach-releases/releases/download/v0.28.0-test.202611201854/SimCoach-pack-fenetre-feb5b704f4b5.zip",
-          "sha256": "3bf7fa324d49af6b8f54868c7715e0e6176f382a1f4c7d35134d2ba71fa0fc1e",
+        "fenetre-c1f936b34d5f": {
+          "url": "https://github.com/SimCoachDev/simcoach-releases/releases/download/v0.28.0-test.202611201903/SimCoach-pack-fenetre-c1f936b34d5f.zip",
+          "sha256": "07d8946d3af70f06aa25540cb617ed4a8cab04a0a1c9fc456c3546045b8d33c3",
           "size": 2082175
         },
         "hf_xet-349c21985ac2": {
@@ -5563,10 +5563,10 @@
           "sha256": "44a4b53ee39fbb87ba7724ffc220b31a60abe4810cbce851e7e08c0409eb4cdc",
           "size": 11918556
         },
-        "moteur-7a163cced7b8": {
-          "url": "https://github.com/SimCoachDev/simcoach-releases/releases/download/v0.28.0-test.202611201854/SimCoach-pack-moteur-7a163cced7b8.zip",
-          "sha256": "e416b9ac4df853e2db191d85a74b88c59f51d856e8c20932ff285e2b38227154",
-          "size": 12507838
+        "moteur-a7adc9fac6a5": {
+          "url": "https://github.com/SimCoachDev/simcoach-releases/releases/download/v0.28.0-test.202611201903/SimCoach-pack-moteur-a7adc9fac6a5.zip",
+          "sha256": "39bcb0a12bbec3e6339d96d085f967ab47e5c98de72bc3f1740b2ec16ae710b2",
+          "size": 12507840
         },
         "numpy-b5c42363a735": {
           "url": "https://github.com/SimCoachDev/simcoach-releases/releases/download/v0.28.0-test.202611201821/SimCoach-pack-numpy-b5c42363a735.zip",
@@ -5588,10 +5588,15 @@
           "sha256": "cadc27435f5f437f6b16f4f9b8a332f7f44bd8a83c770b60883b0653064934b1",
           "size": 3411358
         },
-        "stdlib-f9cb655dff7b": {
-          "url": "https://github.com/SimCoachDev/simcoach-releases/releases/download/v0.28.0-test.202611201854/SimCoach-pack-stdlib-f9cb655dff7b.zip",
-          "sha256": "7bd9ab9910ba6d60e7ba3d4c830f7c4e1a760743420e1bc1c87c2dcae4b877b3",
-          "size": 426410
+        "sounddevice_data-a62d520632da": {
+          "url": "https://github.com/SimCoachDev/simcoach-releases/releases/download/v0.28.0-test.202611201903/SimCoach-pack-sounddevice_data-a62d520632da.zip",
+          "sha256": "57b0f59a91e4260b656797a43bdb8f6b21f51656658886e7097f59bec11ca0c7",
+          "size": 1006819
+        },
+        "stdlib-43a864910c20": {
+          "url": "https://github.com/SimCoachDev/simcoach-releases/releases/download/v0.28.0-test.202611201903/SimCoach-pack-stdlib-43a864910c20.zip",
+          "sha256": "07472a9dc213f62f577a22c99bc414f5213934d4904704c9d2e501cde69ec8d8",
+          "size": 426915
         },
         "tokenizers-38f70a90e9b0": {
           "url": "https://github.com/SimCoachDev/simcoach-releases/releases/download/v0.28.0-test.202611201821/SimCoach-pack-tokenizers-38f70a90e9b0.zip",
