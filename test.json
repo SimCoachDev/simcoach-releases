@@ -1,18 +1,18 @@
 {
-  "version": "0.28.0-test.202611201719",
+  "version": "0.28.0-test.202611201759",
   "channel": "test",
-  "date": "2026-11-20 17:21",
+  "date": "2026-11-20 17:59",
   "min_launcher": 1,
   "components": [
     {
       "id": "app",
-      "version": "0.28.0-test.202611201719",
+      "version": "0.28.0-test.202611201759",
       "when": "always",
       "dest": "app/{version}",
       "zip": {
-        "url": "https://github.com/SimCoachDev/simcoach-releases/releases/download/v0.28.0-test.202611201719/SimCoach-app-0.28.0-test.202611201719.zip",
-        "sha256": "1941290e176cc893a3777712d40c929454953e9c8353103efcc46ff94f347820",
-        "size": 163650175
+        "url": "https://github.com/SimCoachDev/simcoach-releases/releases/download/v0.28.0-test.202611201759/SimCoach-app-0.28.0-test.202611201759.zip",
+        "sha256": "4ab77cc4c822d0f8233b10753a666a95b2e08cf04d859f1bc5b5195dd7d03478",
+        "size": 163648746
       }
     },
     {
@@ -130,9 +130,9 @@
     }
   ],
   "launcher": {
-    "version": 1,
-    "url": "https://github.com/SimCoachDev/simcoach-releases/releases/download/v0.28.0-test.202611201719/SimCoach-Setup.exe",
-    "sha256": "d0cd061995668508dc5702fe2add0698e886870fba039a8c1be2b15a4aa5aa1d",
-    "size": 12493698
+    "version": 2,
+    "url": "https://github.com/SimCoachDev/simcoach-releases/releases/download/v0.28.0-test.202611201759/SimCoach-Setup.exe",
+    "sha256": "773584e55e2911753cee33278e27298c04eef14b10476ba5a1bed294a4397702",
+    "size": 12500685
   }
 }
