@@ -8,7 +8,7 @@ des réglages pendant les essais libres, et **te parle à la radio uniquement da
 
 ## Installer
 
-1. Télécharge **[SimCoach-Setup.exe](https://github.com/SimCoachDev/simcoach-releases/releases/latest/download/SimCoach-Setup.exe)** et lance-le.
+1. Télécharge **[SimCoach-Setup.exe](https://github.com/SimCoachDev/simcoach-releases/releases/download/lanceur/SimCoach-Setup.exe)** et lance-le.
 2. Windows peut afficher « Windows a protégé votre ordinateur » (le programme n'est pas signé) :
    clique **Informations complémentaires → Exécuter quand même**.
 3. Le lanceur installe tout dans ton dossier utilisateur (aucun droit administrateur), crée les raccourcis
@@ -31,7 +31,7 @@ Un **assistant** s'ouvre dans la fenêtre de SimCoach :
 1. **Micro** : choisis le micro de ton casque et clique *Tester* (parle 3 secondes) : Jeff te dit si le niveau est bon.
 2. **Voix de Jeff** : choisis une voix (les voix « en ligne » sont les plus naturelles, « Tom » marche sans Internet)
    et le volume, puis *Écouter Jeff*. Si le jeu couvre sa voix, monte le volume.
-3. **Bouton du volant** (facultatif) : un bouton pour changer d'onglet sans lâcher le volant.
+3. **Volant et pédalier** : la marque de ton volant (Fanatec, Logitech, Thrustmaster, Moza, Simucube, Simagic…) et ton type de pédale de frein (load cell ou classique, comme sur un G29) : les conseils de freinage parlent de ton matériel et du bon logiciel. En option, un bouton du volant pour changer d'onglet.
 4. **Jeux** : ce que Jeff trouve sur ton PC (jeux, dossiers de setups).
 
 Tu peux rouvrir l'assistant à tout moment : onglet **AFFICHAGE → Assistant de configuration**.
@@ -181,3 +181,13 @@ Le **journal de Jeff** (onglet AFFICHAGE) montre tout ce que fait le programme :
 
 Supprime le dossier `%LOCALAPPDATA%\SimCoach` (colle ce chemin dans la barre d'adresse de l'Explorateur) et
 les raccourcis SimCoach du Bureau et du menu Démarrer. Pour garder tes données, copie d'abord le dossier `data`.
+
+## Licence
+
+**Utilisation gratuite, tous droits réservés.** Tu peux télécharger et utiliser SimCoach gratuitement
+depuis cette page. Toute reproduction, redistribution, modification ou revente, totale ou partielle, est
+interdite sans l'accord de l'auteur : pour faire découvrir SimCoach, partage le lien de cette page plutôt
+que les fichiers. Les composants libres utilisés (Python, pygame-ce, Vosk, Piper, Whisper…) restent sous
+leur propre licence. Texte complet : [LICENSE](LICENSE).
+
+© 2026 SimCoachDev
