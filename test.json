@@ -1,0 +1,138 @@
+{
+  "version": "0.28.0-test.202611201719",
+  "channel": "test",
+  "date": "2026-11-20 17:21",
+  "min_launcher": 1,
+  "components": [
+    {
+      "id": "app",
+      "version": "0.28.0-test.202611201719",
+      "when": "always",
+      "dest": "app/{version}",
+      "zip": {
+        "url": "https://github.com/SimCoachDev/simcoach-releases/releases/download/v0.28.0-test.202611201719/SimCoach-app-0.28.0-test.202611201719.zip",
+        "sha256": "1941290e176cc893a3777712d40c929454953e9c8353103efcc46ff94f347820",
+        "size": 163650175
+      }
+    },
+    {
+      "id": "cuda",
+      "version": "804f0f9979b2",
+      "when": "nvidia",
+      "dest": "cuda",
+      "zip": {
+        "url": "https://github.com/SimCoachDev/simcoach-releases/releases/download/v0.28.0-test.202611201719/SimCoach-cuda-804f0f9979b2.zip",
+        "sha256": "3018ecc98e0ff2ed807db773bfdb4c2712853f3bd0262c4019eb1366e27dc149",
+        "size": 1329638089
+      }
+    },
+    {
+      "id": "whisper-large-v3-turbo",
+      "version": "d27fce96bfd1",
+      "when": "nvidia",
+      "dest": "models/whisper/large-v3-turbo",
+      "files": [
+        {
+          "path": "config.json",
+          "url": "https://huggingface.co/mobiuslabsgmbh/faster-whisper-large-v3-turbo/resolve/0a363e9161cbc7ed1431c9597a8ceaf0c4f78fcf/config.json",
+          "sha256": "b0253ea6c0d3bea6b1e19e91a02acfd3b53f4467362efcb5a3e6b16c9b3a9b7e",
+          "size": 2263
+        },
+        {
+          "path": "model.bin",
+          "url": "https://huggingface.co/mobiuslabsgmbh/faster-whisper-large-v3-turbo/resolve/0a363e9161cbc7ed1431c9597a8ceaf0c4f78fcf/model.bin",
+          "sha256": "e76620f83d5f5b69efd3d87e3dc180c1bd21df9fbebacfd4335e5e1efcc018da",
+          "size": 1617884929
+        },
+        {
+          "path": "preprocessor_config.json",
+          "url": "https://huggingface.co/mobiuslabsgmbh/faster-whisper-large-v3-turbo/resolve/0a363e9161cbc7ed1431c9597a8ceaf0c4f78fcf/preprocessor_config.json",
+          "sha256": "7ccc62c6f2765af1f3b46c00c9b5894426835a05021c8b9c01eecb6dfb542711",
+          "size": 340
+        },
+        {
+          "path": "tokenizer.json",
+          "url": "https://huggingface.co/mobiuslabsgmbh/faster-whisper-large-v3-turbo/resolve/0a363e9161cbc7ed1431c9597a8ceaf0c4f78fcf/tokenizer.json",
+          "sha256": "297b13372ac43916285644fb9687add3cc62ee2a1adb60da3dc25cc94c1871fd",
+          "size": 2710337
+        },
+        {
+          "path": "vocabulary.json",
+          "url": "https://huggingface.co/mobiuslabsgmbh/faster-whisper-large-v3-turbo/resolve/0a363e9161cbc7ed1431c9597a8ceaf0c4f78fcf/vocabulary.json",
+          "sha256": "c69260f2ab26d659b7c398f9a2b2b48ed0df16c3b47d7326782fd9cba71690c1",
+          "size": 1068114
+        }
+      ]
+    },
+    {
+      "id": "whisper-small",
+      "version": "6079b98bc402",
+      "when": "cpu",
+      "dest": "models/whisper/small",
+      "files": [
+        {
+          "path": "config.json",
+          "url": "https://huggingface.co/Systran/faster-whisper-small/resolve/536b0662742c02347bc0e980a01041f333bce120/config.json",
+          "sha256": "b55496ac7940a7ae47d2c01eab40edfd8701feec1229d9cce3b40014383fb828",
+          "size": 2370
+        },
+        {
+          "path": "model.bin",
+          "url": "https://huggingface.co/Systran/faster-whisper-small/resolve/536b0662742c02347bc0e980a01041f333bce120/model.bin",
+          "sha256": "3e305921506d8872816023e4c273e75d2419fb89b24da97b4fe7bce14170d671",
+          "size": 483546902
+        },
+        {
+          "path": "tokenizer.json",
+          "url": "https://huggingface.co/Systran/faster-whisper-small/resolve/536b0662742c02347bc0e980a01041f333bce120/tokenizer.json",
+          "sha256": "fb7b63191e9bb045082c79fd742a3106a12c99513ab30df4a0d47fa6cb6fd0ab",
+          "size": 2203239
+        },
+        {
+          "path": "vocabulary.txt",
+          "url": "https://huggingface.co/Systran/faster-whisper-small/resolve/536b0662742c02347bc0e980a01041f333bce120/vocabulary.txt",
+          "sha256": "34ce3fe1c5041027b3f8d42912270993f986dbc4bb34cf27f951e34a1e453913",
+          "size": 459861
+        }
+      ]
+    },
+    {
+      "id": "vosk",
+      "version": "cabf6180e177",
+      "when": "always",
+      "dest": "models/vosk-model-small-fr-0.22",
+      "strip": 1,
+      "zip": {
+        "url": "https://alphacephei.com/vosk/models/vosk-model-small-fr-0.22.zip",
+        "sha256": "cabf6180e177eb9b3a9a9d43a437bd5e549f3a7d09525e5d69a3fed787be12ad",
+        "size": 42233323
+      }
+    },
+    {
+      "id": "voice-tom",
+      "version": "b7b258e1312c",
+      "when": "always",
+      "dest": "models/voices",
+      "files": [
+        {
+          "path": "fr_FR-tom-medium.onnx",
+          "url": "https://huggingface.co/rhasspy/piper-voices/resolve/main/fr/fr_FR/tom/medium/fr_FR-tom-medium.onnx",
+          "sha256": "bf65074ccdeeeeaa832e75edb1c0a513c01c9a972bdf085ff8a6e71ea234fd41",
+          "size": 63511038
+        },
+        {
+          "path": "fr_FR-tom-medium.onnx.json",
+          "url": "https://huggingface.co/rhasspy/piper-voices/resolve/main/fr/fr_FR/tom/medium/fr_FR-tom-medium.onnx.json",
+          "sha256": "2f7f885ad5a0aad802e3cc24e4f57239febdcb142b4876de5d238094674361cc",
+          "size": 4959
+        }
+      ]
+    }
+  ],
+  "launcher": {
+    "version": 1,
+    "url": "https://github.com/SimCoachDev/simcoach-releases/releases/download/v0.28.0-test.202611201719/SimCoach-Setup.exe",
+    "sha256": "d0cd061995668508dc5702fe2add0698e886870fba039a8c1be2b15a4aa5aa1d",
+    "size": 12493698
+  }
+}
