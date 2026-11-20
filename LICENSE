@@ -1,0 +1,27 @@
+SimCoach — Copyright (c) 2026 SimCoachDev. Tous droits réservés.
+
+Utilisation gratuite
+Le logiciel SimCoach (programme, lanceur, interface, textes, logo) peut être téléchargé et utilisé
+gratuitement, à titre personnel, depuis la page officielle :
+https://github.com/SimCoachDev/simcoach-releases
+
+Ce qui est interdit sans l'accord écrit de l'auteur
+- reproduire, copier ou redistribuer tout ou partie du logiciel (y compris les fichiers d'installation),
+  gratuitement ou contre paiement ;
+- le modifier, le décompiler, le désassembler ou en extraire le code, sauf dans les cas où la loi
+  l'autorise expressément ;
+- le vendre, le louer, l'intégrer à un autre produit ou service ;
+- utiliser le nom « SimCoach » ou le logo pour un autre produit.
+
+Pour partager SimCoach, partage le lien de la page officielle plutôt que les fichiers.
+
+Composants tiers
+SimCoach s'appuie sur des composants libres qui restent soumis à leur propre licence (notamment
+Python, pygame-ce, NumPy, Vosk, Piper, onnxruntime, faster-whisper, CTranslate2, edge-tts, Tauri).
+Les modèles de reconnaissance vocale (Whisper, Vosk) et la voix (Piper) sont téléchargés depuis leurs
+sites officiels et restent soumis à la licence de leurs auteurs. Ces licences s'appliquent à ces
+composants et ne sont pas modifiées par le présent texte.
+
+Absence de garantie
+SimCoach est fourni tel quel, sans garantie d'aucune sorte. L'auteur ne peut être tenu responsable des
+conséquences de son utilisation.
