@@ -63,9 +63,17 @@ circuit, puis commence à analyser dès le premier tour complet.
 
 ## Parler à Jeff
 
-Commence chaque phrase par **« Jeff »** (il comprend aussi « Jef » et « Chef »). Tu peux dire « Jeff » seul :
-il écoute alors ta demande pendant 5 secondes. S'il parle, dis « Jeff » pour lui couper la parole, ou
-« stop » pour qu'il se taise. Tout reste sur ton PC : aucun son n'est envoyé sur Internet.
+Commence chaque phrase par **« Jeff »** (il comprend aussi « Jef », toujours, et « Chef »). Deux façons de
+l'appeler, au choix :
+- **d'une traite** : « Jeff, virage trois » ;
+- **avec un temps d'arrêt** : « Jeff »… (il se tait, le tableau de bord affiche « Jeff t'écoute… »), puis ta
+  demande dans les **7 secondes**, sans répéter son nom.
+
+Un **bip radio** (deux tons courts, façon radio d'équipe à la télé) confirme qu'il t'écoute : à l'appel et
+quand tu lui coupes la parole, dans ton casque, sur la même sortie que sa voix. Pour le couper :
+`"wake_sound": false` dans `voice_input` de `config.json` (volume : `"wake_sound_volume"`, de 0 à 1).
+
+S'il parle, dis « Jeff » pour lui couper la parole, ou « stop » pour qu'il se taise. Tout reste sur ton PC : aucun son n'est envoyé sur Internet.
 
 **Infos sur ton tour**
 
@@ -130,6 +138,13 @@ La vue « Châssis » ajoute le transfert de charge (l'avant pousse ou l'arrièr
 qui se déleste, le roulis et la plongée au freinage, l'essieu sur lequel l'ABS travaille, la glisse des
 pneus (LMU), les passages de rapports, l'adhérence de la piste et le vent : l'ingénieur en tire des
 réglages (barres, répartiteur, compression lente) et confirme ou non le sous-virage mesuré.
+
+**Passages de rapports (v0.34)** : Jeff compare la poussée de la voiture juste avant et juste après chaque
+montée de rapport, à fond et à la même vitesse. Si le rapport suivant pousse nettement plus fort, tu passes
+trop tard ; s'il pousse nettement moins fort alors qu'il restait de la marge avant le rupteur, trop tôt.
+Il repère aussi le rupteur au même endroit tour après tour et les rétrogradages en sur-régime (si le jeu
+publie le régime maxi : ACC, LMU). Une consigne à la radio tous les 3 tours (`coach.shifting_every_laps`),
+le détail dans le débrief (section « Passages de rapports »).
 
 **Comparer tes tours (onglet TARGET)**
 
