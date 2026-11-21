@@ -69,8 +69,10 @@ l'appeler, au choix :
 - **avec un temps d'arrêt** : « Jeff »… (il se tait, le tableau de bord affiche « Jeff t'écoute… »), puis ta
   demande dans les **7 secondes**, sans répéter son nom.
 
-Un **bip radio** (deux tons courts, façon radio d'équipe à la télé) confirme qu'il t'écoute : à l'appel et
-quand tu lui coupes la parole, dans ton casque, sur la même sortie que sa voix. Pour le couper :
+Un **bip radio** (deux tons courts, façon radio d'équipe à la télé) confirme qu'il t'a compris : à **chaque**
+appel (« Jeff » seul, « Jeff, virage trois », coupure de parole) et dès l'appui sur le bouton du volant, dans
+ton casque, sur la même sortie que sa voix. Pas de bip = Jeff ne t'a pas entendu : répète. Chaque bip laisse
+une ligne « 🔔 Jeff t'écoute » dans le journal. Pour le couper :
 `"wake_sound": false` dans `voice_input` de `config.json` (volume : `"wake_sound_volume"`, de 0 à 1).
 
 S'il parle, dis « Jeff » pour lui couper la parole, ou « stop » pour qu'il se taise. Tout reste sur ton PC : aucun son n'est envoyé sur Internet.
