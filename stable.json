@@ -1,12 +1,12 @@
 {
-  "version": "0.28.0-test.202611201908",
+  "version": "0.33.0-test.202611211207",
   "channel": "stable",
-  "date": "2026-11-20 19:08",
+  "date": "2026-11-21 12:07",
   "min_launcher": 1,
   "components": [
     {
       "id": "programme",
-      "version": "0.28.0-test.202611201908",
+      "version": "0.33.0-test.202611211207",
       "when": "always",
       "dest": "app/{version}",
       "kind": "packs",
@@ -1767,391 +1767,541 @@
           "path": "LICENSE.txt",
           "sha256": "864c753c1ef20d7dde6972baac7ae5fab5ff9b0dddb5767aab264c930a120ccd",
           "size": 1493,
-          "pack": "divers-019a22e0cde5"
+          "pack": "divers-2e910eed7bf7"
+        },
+        {
+          "path": "_internal/aiohttp-3.14.5.dist-info/INSTALLER",
+          "sha256": "ceebae7b8927a3227e5303cf5e0f1f7b34bb542ad7250ac03fbcde36ec2f1508",
+          "size": 4,
+          "pack": "divers-2e910eed7bf7"
+        },
+        {
+          "path": "_internal/aiohttp-3.14.5.dist-info/METADATA",
+          "sha256": "063c418f586e6e668be019ff7b8cc98ee08e7f836ef205686275c7bd1a6099d7",
+          "size": 8534,
+          "pack": "divers-2e910eed7bf7"
+        },
+        {
+          "path": "_internal/aiohttp-3.14.5.dist-info/RECORD",
+          "sha256": "c208c9f8dfe9ffed92f67f01c0a90ea8e993d4548f9e8f6b615074293f66d162",
+          "size": 8897,
+          "pack": "divers-2e910eed7bf7"
+        },
+        {
+          "path": "_internal/aiohttp-3.14.5.dist-info/WHEEL",
+          "sha256": "f8868e546779e082b2f4ef1acdce705bd9cc24829ee8add213946b7906f8242d",
+          "size": 101,
+          "pack": "divers-2e910eed7bf7"
+        },
+        {
+          "path": "_internal/aiohttp-3.14.5.dist-info/licenses/LICENSE.txt",
+          "sha256": "2e4be5fc6c4c72a466fcb665d726e049a6891981fe536c4f04b6366749461d23",
+          "size": 11313,
+          "pack": "divers-2e910eed7bf7"
+        },
+        {
+          "path": "_internal/aiohttp-3.14.5.dist-info/licenses/vendor/llhttp/LICENSE",
+          "sha256": "628168d68bb5a8a17e0bbefb3bd74e326e1edc20583d76f52f457c82c921867d",
+          "size": 1069,
+          "pack": "divers-2e910eed7bf7"
+        },
+        {
+          "path": "_internal/aiohttp-3.14.5.dist-info/top_level.txt",
+          "sha256": "8aff8921a69c99397e852868dd09a985c2a76d1458c75b2de3bca3cffd7bf11a",
+          "size": 8,
+          "pack": "divers-2e910eed7bf7"
         },
         {
           "path": "_internal/aiohttp/_http_parser.cp314-win_amd64.pyd",
           "sha256": "89796be8a989f37851f9e025508b8d294a3b4947b8a822615b7d82e513e98986",
           "size": 308736,
-          "pack": "divers-019a22e0cde5"
+          "pack": "divers-2e910eed7bf7"
         },
         {
           "path": "_internal/aiohttp/_http_writer.cp314-win_amd64.pyd",
           "sha256": "eef0db0ea9e2293a3557cdd8170b8708bdd39a4e4af91fec3cc73040c34c6123",
           "size": 44544,
-          "pack": "divers-019a22e0cde5"
+          "pack": "divers-2e910eed7bf7"
         },
         {
           "path": "_internal/aiohttp/_websocket/mask.cp314-win_amd64.pyd",
           "sha256": "03aa540df5b5ab6bd3b1a1b57970e3a977bdc6b8a8df36e926a2d5de5c1a88e5",
           "size": 34816,
-          "pack": "divers-019a22e0cde5"
+          "pack": "divers-2e910eed7bf7"
         },
         {
           "path": "_internal/aiohttp/_websocket/reader_c.cp314-win_amd64.pyd",
           "sha256": "e3874f8070fd4d5471136f2de484d17d23319f279d9b9094c38c649d1edf84e2",
           "size": 154624,
-          "pack": "divers-019a22e0cde5"
+          "pack": "divers-2e910eed7bf7"
+        },
+        {
+          "path": "_internal/anthropic/_vendor/httpx_aiohttp/LICENSE",
+          "sha256": "154759c1e9eb58e42643ee43ec59d556def4d1d702d911a484c469e02f85dd5d",
+          "size": 1493,
+          "pack": "divers-2e910eed7bf7"
+        },
+        {
+          "path": "_internal/anthropic/_vendor/httpx_aiohttp/NOTICE.md",
+          "sha256": "a29280d1b6faff7efde405e9aa16ba2fda80f22b0a80289ed61d8bf09afbd88f",
+          "size": 2237,
+          "pack": "divers-2e910eed7bf7"
+        },
+        {
+          "path": "_internal/anthropic/lib/.keep",
+          "sha256": "27c92443a5eeb933bbb52ba455019d3791577a01bd6d2575654c5081aff62f53",
+          "size": 172,
+          "pack": "divers-2e910eed7bf7"
+        },
+        {
+          "path": "_internal/anthropic/lib/foundry.md",
+          "sha256": "861eec19855644e15e8bd1575daeb2530fc4beebfab7dc5f4cd2fd39458da0d0",
+          "size": 2700,
+          "pack": "divers-2e910eed7bf7"
+        },
+        {
+          "path": "_internal/anthropic/lib/google_cloud/README.md",
+          "sha256": "e83a67d54801f3653282ad8c44e57b660a8fadc7d93612504012c7730a048a94",
+          "size": 5409,
+          "pack": "divers-2e910eed7bf7"
+        },
+        {
+          "path": "_internal/anthropic/py.typed",
+          "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "size": 0,
+          "pack": "divers-2e910eed7bf7"
         },
         {
           "path": "_internal/attrs-26.1.0.dist-info/INSTALLER",
           "sha256": "ceebae7b8927a3227e5303cf5e0f1f7b34bb542ad7250ac03fbcde36ec2f1508",
           "size": 4,
-          "pack": "divers-019a22e0cde5"
+          "pack": "divers-2e910eed7bf7"
         },
         {
           "path": "_internal/attrs-26.1.0.dist-info/METADATA",
           "sha256": "4cd40e690f23bf37cbcad34efd6758e062df1df07c86833f7e3ce95bf1fa38cc",
           "size": 8754,
-          "pack": "divers-019a22e0cde5"
+          "pack": "divers-2e910eed7bf7"
         },
         {
           "path": "_internal/attrs-26.1.0.dist-info/RECORD",
           "sha256": "3cc123d895d29f6371d82bc6743c0dea82c79123d9421837517c6b6777345a77",
           "size": 3556,
-          "pack": "divers-019a22e0cde5"
+          "pack": "divers-2e910eed7bf7"
         },
         {
           "path": "_internal/attrs-26.1.0.dist-info/WHEEL",
           "sha256": "41c708c5adba6e097513ab8ccb9f1d7865a2fb469e22491a9e01dcc64da459fc",
           "size": 87,
-          "pack": "divers-019a22e0cde5"
+          "pack": "divers-2e910eed7bf7"
         },
         {
           "path": "_internal/attrs-26.1.0.dist-info/licenses/LICENSE",
           "sha256": "882115c95dfc2af1eeb6714f8ec6d5cbcabf667caff8729f42420da63f714e9f",
           "size": 1109,
-          "pack": "divers-019a22e0cde5"
+          "pack": "divers-2e910eed7bf7"
         },
         {
           "path": "_internal/certifi/cacert.pem",
           "sha256": "2ef52ad56b4803e264045c915e55c236cbfa045b84b81efefc218a19eb44bd2b",
           "size": 235863,
-          "pack": "divers-019a22e0cde5"
+          "pack": "divers-2e910eed7bf7"
         },
         {
           "path": "_internal/certifi/py.typed",
           "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
           "size": 0,
-          "pack": "divers-019a22e0cde5"
+          "pack": "divers-2e910eed7bf7"
         },
         {
           "path": "_internal/charset_normalizer/cd.cp314-win_amd64.pyd",
           "sha256": "2fc82a309cdd4499e5dba1a87671f9ac3a3a35e44008afafd7867888d400f3a3",
           "size": 119296,
-          "pack": "divers-019a22e0cde5"
+          "pack": "divers-2e910eed7bf7"
         },
         {
           "path": "_internal/charset_normalizer/md.cp314-win_amd64.pyd",
           "sha256": "ca72897ac6a6aca48bac72b409bb3cbe6326b755b37d733cad731d5624e17f79",
           "size": 210944,
-          "pack": "divers-019a22e0cde5"
+          "pack": "divers-2e910eed7bf7"
         },
         {
           "path": "_internal/click-8.5.1.dist-info/INSTALLER",
           "sha256": "ceebae7b8927a3227e5303cf5e0f1f7b34bb542ad7250ac03fbcde36ec2f1508",
           "size": 4,
-          "pack": "divers-019a22e0cde5"
+          "pack": "divers-2e910eed7bf7"
         },
         {
           "path": "_internal/click-8.5.1.dist-info/METADATA",
           "sha256": "63d23e734a4c63191d956c85a399291729141377c9af847dcd2b4b450e0b81cc",
           "size": 2567,
-          "pack": "divers-019a22e0cde5"
+          "pack": "divers-2e910eed7bf7"
         },
         {
           "path": "_internal/click-8.5.1.dist-info/RECORD",
           "sha256": "3edb7ad6a26e181f57ab170c6bb0c7dc2474471470e8f08794c7fe390d275c79",
           "size": 2534,
-          "pack": "divers-019a22e0cde5"
+          "pack": "divers-2e910eed7bf7"
         },
         {
           "path": "_internal/click-8.5.1.dist-info/WHEEL",
           "sha256": "1b68144734c4b66791f27add5d425f3620775585718a03d0f9b110ba3a4d88db",
           "size": 82,
-          "pack": "divers-019a22e0cde5"
+          "pack": "divers-2e910eed7bf7"
         },
         {
           "path": "_internal/click-8.5.1.dist-info/licenses/LICENSE.txt",
           "sha256": "9a8ad106a394e853bfe21f42f4e72d592819a22805d991b5f3275029292b658d",
           "size": 1475,
-          "pack": "divers-019a22e0cde5"
+          "pack": "divers-2e910eed7bf7"
         },
         {
           "path": "_internal/faster_whisper-1.2.1.dist-info/INSTALLER",
           "sha256": "ceebae7b8927a3227e5303cf5e0f1f7b34bb542ad7250ac03fbcde36ec2f1508",
           "size": 4,
-          "pack": "divers-019a22e0cde5"
+          "pack": "divers-2e910eed7bf7"
         },
         {
           "path": "_internal/faster_whisper-1.2.1.dist-info/LICENSE",
           "sha256": "af6798135e729f8aa6c853936d037dfdea449734d26b8ea6a89805fca758c0d5",
           "size": 1064,
-          "pack": "divers-019a22e0cde5"
+          "pack": "divers-2e910eed7bf7"
         },
         {
           "path": "_internal/faster_whisper-1.2.1.dist-info/METADATA",
           "sha256": "b85622132a43897972924db98e024c0d40dcec19c577b1ee5640f1bc1b59aada",
           "size": 16616,
-          "pack": "divers-019a22e0cde5"
+          "pack": "divers-2e910eed7bf7"
         },
         {
           "path": "_internal/faster_whisper-1.2.1.dist-info/RECORD",
           "sha256": "7e93610c4ffffcab687212e2e770c5a567dcff3e486f55c09ebed4fba7b694bc",
           "size": 1979,
-          "pack": "divers-019a22e0cde5"
+          "pack": "divers-2e910eed7bf7"
         },
         {
           "path": "_internal/faster_whisper-1.2.1.dist-info/REQUESTED",
           "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
           "size": 0,
-          "pack": "divers-019a22e0cde5"
+          "pack": "divers-2e910eed7bf7"
         },
         {
           "path": "_internal/faster_whisper-1.2.1.dist-info/WHEEL",
           "sha256": "b59a1e1a3b56c5645f769944ec4ddde3954f94b3509ef6ca8989f1ee0c00cbc0",
           "size": 92,
-          "pack": "divers-019a22e0cde5"
+          "pack": "divers-2e910eed7bf7"
         },
         {
           "path": "_internal/faster_whisper-1.2.1.dist-info/top_level.txt",
           "sha256": "636865f23cdf2058d3db77b66d6d7f8d4154e9894fcf7700374dfb847b76b188",
           "size": 15,
-          "pack": "divers-019a22e0cde5"
+          "pack": "divers-2e910eed7bf7"
         },
         {
           "path": "_internal/faster_whisper/__init__.py",
           "sha256": "5396c3a025a7b0cf81246fcd680c0bb7e384e2e587cc2e18f9518cef4c26d56c",
           "size": 430,
-          "pack": "divers-019a22e0cde5"
+          "pack": "divers-2e910eed7bf7"
         },
         {
           "path": "_internal/faster_whisper/assets/__init__.py",
           "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
           "size": 0,
-          "pack": "divers-019a22e0cde5"
+          "pack": "divers-2e910eed7bf7"
         },
         {
           "path": "_internal/faster_whisper/assets/silero_vad_v6.onnx",
           "sha256": "4cbf549b8326f60f80f2536d9eefeb450a9abe83365a098031c89719f1be17d2",
           "size": 1245151,
-          "pack": "divers-019a22e0cde5"
+          "pack": "divers-2e910eed7bf7"
         },
         {
           "path": "_internal/faster_whisper/audio.py",
           "sha256": "60a1d8638f718cbf6d245aed3e5a5aa61c1f822a0b0fe9b48a7c928d47c23909",
           "size": 3506,
-          "pack": "divers-019a22e0cde5"
+          "pack": "divers-2e910eed7bf7"
         },
         {
           "path": "_internal/faster_whisper/feature_extractor.py",
           "sha256": "e403966dbc592a53695eea2aea24fa60bab50ef6755e0076b311f907be7a397c",
           "size": 7592,
-          "pack": "divers-019a22e0cde5"
+          "pack": "divers-2e910eed7bf7"
         },
         {
           "path": "_internal/faster_whisper/tokenizer.py",
           "sha256": "614a96b6a9660096e4f4e9fbe8860cd75ad250dce8e85a847998a3d6d48165d2",
           "size": 8429,
-          "pack": "divers-019a22e0cde5"
+          "pack": "divers-2e910eed7bf7"
         },
         {
           "path": "_internal/faster_whisper/transcribe.py",
           "sha256": "5d5ffb00018561d3d529b2c72e1d9f5fff055bea725f3cccc7c6c67f5cc8ffe4",
           "size": 80403,
-          "pack": "divers-019a22e0cde5"
+          "pack": "divers-2e910eed7bf7"
         },
         {
           "path": "_internal/faster_whisper/utils.py",
           "sha256": "5b36ceb9d0fd3961de8cfb144bd82f9a4ef3151b2e5958405a11efb4f3ac4f82",
           "size": 4946,
-          "pack": "divers-019a22e0cde5"
+          "pack": "divers-2e910eed7bf7"
         },
         {
           "path": "_internal/faster_whisper/vad.py",
           "sha256": "37a9c774aefdd3162d936b896c8dcf5571b2ed938d65bffecfd631770049a18d",
           "size": 12543,
-          "pack": "divers-019a22e0cde5"
+          "pack": "divers-2e910eed7bf7"
         },
         {
           "path": "_internal/faster_whisper/version.py",
           "sha256": "70ee45276562706d9787f105fb3010417fa9621fe6a9e2fad01a209f3044d9c5",
           "size": 50,
-          "pack": "divers-019a22e0cde5"
+          "pack": "divers-2e910eed7bf7"
         },
         {
           "path": "_internal/frozenlist/_frozenlist.cp314-win_amd64.pyd",
           "sha256": "054e5d97884e8d833528aa3a98868204a3ec46cabb6a656e72432634d117880a",
           "size": 69632,
-          "pack": "divers-019a22e0cde5"
+          "pack": "divers-2e910eed7bf7"
         },
         {
           "path": "_internal/httpcore2-2.16.2.dist-info/INSTALLER",
           "sha256": "ceebae7b8927a3227e5303cf5e0f1f7b34bb542ad7250ac03fbcde36ec2f1508",
           "size": 4,
-          "pack": "divers-019a22e0cde5"
+          "pack": "divers-2e910eed7bf7"
         },
         {
           "path": "_internal/httpcore2-2.16.2.dist-info/METADATA",
           "sha256": "e4d540d65e346c24d66fb268a60ac769260667aca77f0261a5e8dd864ac3a51d",
           "size": 28127,
-          "pack": "divers-019a22e0cde5"
+          "pack": "divers-2e910eed7bf7"
         },
         {
           "path": "_internal/httpcore2-2.16.2.dist-info/RECORD",
           "sha256": "3800d858f8433741335989ac6a0987e599154e337a45087b5407c5f5fc7e26e2",
           "size": 4961,
-          "pack": "divers-019a22e0cde5"
+          "pack": "divers-2e910eed7bf7"
         },
         {
           "path": "_internal/httpcore2-2.16.2.dist-info/WHEEL",
           "sha256": "da266b2640c891e0e1d24f528a428ca85b913feb9aea66f822bd40b04478044c",
           "size": 87,
-          "pack": "divers-019a22e0cde5"
+          "pack": "divers-2e910eed7bf7"
         },
         {
           "path": "_internal/httpcore2-2.16.2.dist-info/licenses/LICENSE.md",
           "sha256": "c4df125c807b0613501e943a5c92496dd11d2c16604ce396097a8dde396304d9",
           "size": 1599,
-          "pack": "divers-019a22e0cde5"
+          "pack": "divers-2e910eed7bf7"
         },
         {
           "path": "_internal/httpx2-2.16.2.dist-info/INSTALLER",
           "sha256": "ceebae7b8927a3227e5303cf5e0f1f7b34bb542ad7250ac03fbcde36ec2f1508",
           "size": 4,
-          "pack": "divers-019a22e0cde5"
+          "pack": "divers-2e910eed7bf7"
         },
         {
           "path": "_internal/httpx2-2.16.2.dist-info/METADATA",
           "sha256": "5d8b261ace858b47c77fa37baaa8a9c3e75ea58e1eb7a5cc08947c95218fa221",
           "size": 9970,
-          "pack": "divers-019a22e0cde5"
+          "pack": "divers-2e910eed7bf7"
         },
         {
           "path": "_internal/httpx2-2.16.2.dist-info/RECORD",
           "sha256": "5971f33384aba01df20f4cf329c826d4da35a99bc29715fa2cba8ca107892bb4",
           "size": 4666,
-          "pack": "divers-019a22e0cde5"
+          "pack": "divers-2e910eed7bf7"
         },
         {
           "path": "_internal/httpx2-2.16.2.dist-info/WHEEL",
           "sha256": "da266b2640c891e0e1d24f528a428ca85b913feb9aea66f822bd40b04478044c",
           "size": 87,
-          "pack": "divers-019a22e0cde5"
+          "pack": "divers-2e910eed7bf7"
         },
         {
           "path": "_internal/httpx2-2.16.2.dist-info/entry_points.txt",
           "sha256": "dee899a2b4509500053681da0f1b8cb2691d8eddeb5139ae073f35b4b5c57506",
           "size": 45,
-          "pack": "divers-019a22e0cde5"
+          "pack": "divers-2e910eed7bf7"
         },
         {
           "path": "_internal/httpx2-2.16.2.dist-info/licenses/LICENSE.md",
           "sha256": "7e7d6dbaf7fe160d39fd6e84fd02c33cab96bcbea34d36998d545bceb4a19c30",
           "size": 1589,
-          "pack": "divers-019a22e0cde5"
+          "pack": "divers-2e910eed7bf7"
+        },
+        {
+          "path": "_internal/jiter/jiter.cp314-win_amd64.pyd",
+          "sha256": "a51e6208910e4482b181082a229de022d752ce99c1c2f4838a87d879d1b889ea",
+          "size": 459776,
+          "pack": "divers-2e910eed7bf7"
         },
         {
           "path": "_internal/multidict/_multidict.cp314-win_amd64.pyd",
           "sha256": "44a822765642589f1dc905ab58d016d127e0daff0358826b96a3c0da8868b291",
           "size": 130048,
-          "pack": "divers-019a22e0cde5"
+          "pack": "divers-2e910eed7bf7"
+        },
+        {
+          "path": "_internal/opentelemetry_api-1.45.2.dist-info/INSTALLER",
+          "sha256": "ceebae7b8927a3227e5303cf5e0f1f7b34bb542ad7250ac03fbcde36ec2f1508",
+          "size": 4,
+          "pack": "divers-2e910eed7bf7"
+        },
+        {
+          "path": "_internal/opentelemetry_api-1.45.2.dist-info/METADATA",
+          "sha256": "aa93f63be0d6d1f662966e67b22a77c0d9966752e3a32ad87c1347f595cea7cb",
+          "size": 1411,
+          "pack": "divers-2e910eed7bf7"
+        },
+        {
+          "path": "_internal/opentelemetry_api-1.45.2.dist-info/RECORD",
+          "sha256": "010a4ecea56dbe8236ec51eb4318977e8c71b4caf0d647f913952647a6de7fd4",
+          "size": 6381,
+          "pack": "divers-2e910eed7bf7"
+        },
+        {
+          "path": "_internal/opentelemetry_api-1.45.2.dist-info/WHEEL",
+          "sha256": "da266b2640c891e0e1d24f528a428ca85b913feb9aea66f822bd40b04478044c",
+          "size": 87,
+          "pack": "divers-2e910eed7bf7"
+        },
+        {
+          "path": "_internal/opentelemetry_api-1.45.2.dist-info/entry_points.txt",
+          "sha256": "7713ead1845b4034b097c42447e23d037f2b6db7ca406e61dae3458e9bd4e95e",
+          "size": 573,
+          "pack": "divers-2e910eed7bf7"
+        },
+        {
+          "path": "_internal/opentelemetry_api-1.45.2.dist-info/licenses/LICENSE",
+          "sha256": "c71d239df91726fc519c6eb72d318ec65820627232b2f796219e87dcf35d0ab4",
+          "size": 11357,
+          "pack": "divers-2e910eed7bf7"
         },
         {
           "path": "_internal/propcache/_helpers_c.cp314-win_amd64.pyd",
           "sha256": "cb2e3b34bafecbe41b058cf858916b092659745e3112dae913a9e390ca3b2827",
           "size": 66048,
-          "pack": "divers-019a22e0cde5"
+          "pack": "divers-2e910eed7bf7"
+        },
+        {
+          "path": "_internal/pydantic-2.14.4.dist-info/INSTALLER",
+          "sha256": "ceebae7b8927a3227e5303cf5e0f1f7b34bb542ad7250ac03fbcde36ec2f1508",
+          "size": 4,
+          "pack": "divers-2e910eed7bf7"
+        },
+        {
+          "path": "_internal/pydantic-2.14.4.dist-info/METADATA",
+          "sha256": "8f5e54d1880bfcdd9a002ae23f584484f73347b8e67b9c0697fd2a450dc2baae",
+          "size": 143988,
+          "pack": "divers-2e910eed7bf7"
+        },
+        {
+          "path": "_internal/pydantic-2.14.4.dist-info/RECORD",
+          "sha256": "8dfa91f6827bfffe3531c6c5f3e0ba0f79f127c713881938da8b958cb5504a6e",
+          "size": 15592,
+          "pack": "divers-2e910eed7bf7"
+        },
+        {
+          "path": "_internal/pydantic-2.14.4.dist-info/WHEEL",
+          "sha256": "da266b2640c891e0e1d24f528a428ca85b913feb9aea66f822bd40b04478044c",
+          "size": 87,
+          "pack": "divers-2e910eed7bf7"
+        },
+        {
+          "path": "_internal/pydantic-2.14.4.dist-info/licenses/LICENSE",
+          "sha256": "a9e186f3ca16b5eef84318e7a701721351a00cb7b8ae3a4394b67b49e3529ef3",
+          "size": 1129,
+          "pack": "divers-2e910eed7bf7"
         },
         {
           "path": "_internal/pywin32_system32/pywintypes314.dll",
           "sha256": "e62808f40462f8066c8d19811cebd15467de6992b1cb48be5f5903910f5395f7",
           "size": 136704,
-          "pack": "divers-019a22e0cde5"
+          "pack": "divers-2e910eed7bf7"
         },
         {
           "path": "_internal/setuptools/_vendor/jaraco/text/Lorem ipsum.txt",
           "sha256": "37fedcffbf73c4eb9f058f47677cb33203a436ff9390e4d38a8e01c9dad28e0b",
           "size": 1335,
-          "pack": "divers-019a22e0cde5"
+          "pack": "divers-2e910eed7bf7"
         },
         {
           "path": "_internal/simcoach/config_default.json",
-          "sha256": "bf6efc2537dfd6a8422a037ed2c78d5b6f3e3e48b25d8c02d4c0fe3c246cddd1",
-          "size": 7665,
-          "pack": "divers-019a22e0cde5"
+          "sha256": "dc4f671a7d209bdcb04487589cf54128365449bdf3b9a5beafdb3f9c560214bd",
+          "size": 7655,
+          "pack": "divers-2e910eed7bf7"
         },
         {
           "path": "_internal/simcoach/reference_times.json",
           "sha256": "fad8c508972a00d15a0bc4d2f6e4bcdc7ffc8446eca580f9c724a7b03e402365",
           "size": 68870,
-          "pack": "divers-019a22e0cde5"
+          "pack": "divers-2e910eed7bf7"
         },
         {
           "path": "_internal/tqdm-4.70.1.dist-info/INSTALLER",
           "sha256": "ceebae7b8927a3227e5303cf5e0f1f7b34bb542ad7250ac03fbcde36ec2f1508",
           "size": 4,
-          "pack": "divers-019a22e0cde5"
+          "pack": "divers-2e910eed7bf7"
         },
         {
           "path": "_internal/tqdm-4.70.1.dist-info/METADATA",
           "sha256": "a5da70b966afea3a759716041bad7187f2ece02c22348cf9e7c0a512bbf15f57",
           "size": 57366,
-          "pack": "divers-019a22e0cde5"
+          "pack": "divers-2e910eed7bf7"
         },
         {
           "path": "_internal/tqdm-4.70.1.dist-info/RECORD",
           "sha256": "0ad897658520c82e41c33070a513db84974a2a4de7e9b5e7f780916e31c9bc1f",
           "size": 4551,
-          "pack": "divers-019a22e0cde5"
+          "pack": "divers-2e910eed7bf7"
         },
         {
           "path": "_internal/tqdm-4.70.1.dist-info/WHEEL",
           "sha256": "61532836a2b3111b7ec23519c09df7c41180c27165fb872a6d8913b566b88ad1",
           "size": 91,
-          "pack": "divers-019a22e0cde5"
+          "pack": "divers-2e910eed7bf7"
         },
         {
           "path": "_internal/tqdm-4.70.1.dist-info/entry_points.txt",
           "sha256": "45e2421fb522dd9ca1e8cd7a1383a1b19d6853b5ad31709f6eda3206118edbd6",
           "size": 39,
-          "pack": "divers-019a22e0cde5"
+          "pack": "divers-2e910eed7bf7"
         },
         {
           "path": "_internal/tqdm-4.70.1.dist-info/licenses/LICENCE",
           "sha256": "fcff87c3a47ce8028a8512aa182d4fcf0ad1c90544ee75cf9b343684cac194de",
           "size": 1985,
-          "pack": "divers-019a22e0cde5"
+          "pack": "divers-2e910eed7bf7"
         },
         {
           "path": "_internal/tqdm-4.70.1.dist-info/top_level.txt",
           "sha256": "34b89424d7e673d02dd79b3b254462c2fa8c123522f46e4f30646b98c6333523",
           "size": 5,
-          "pack": "divers-019a22e0cde5"
+          "pack": "divers-2e910eed7bf7"
         },
         {
           "path": "_internal/win32/win32pdh.pyd",
           "sha256": "cfd8e33ef60f73b77d3b5751dbd1755e337037eb6544dba5e234ec3cba503473",
           "size": 33792,
-          "pack": "divers-019a22e0cde5"
+          "pack": "divers-2e910eed7bf7"
         },
         {
           "path": "_internal/yaml/_yaml.cp314-win_amd64.pyd",
           "sha256": "ef5cde08b05f7c8222a458fa49ca5ec891e54d4c721ffdbe1d6a609e26a26718",
           "size": 258560,
-          "pack": "divers-019a22e0cde5"
+          "pack": "divers-2e910eed7bf7"
         },
         {
           "path": "_internal/yarl/_quoting_c.cp314-win_amd64.pyd",
           "sha256": "3912a5ed94d6928ea73abf3308dcd40fe67223a037846d10d3a773203d807beb",
           "size": 82432,
-          "pack": "divers-019a22e0cde5"
+          "pack": "divers-2e910eed7bf7"
         },
         {
           "path": "SimCoachApp.exe",
-          "sha256": "521db5222a7d5cad4b1e291472ff4ac40b992925de8803bb2ab8acd37af1aeb9",
-          "size": 6235648,
-          "pack": "fenetre-76c36f3c49f1"
+          "sha256": "a433772322c3f664a5bf9ad99b693a794b87d0fa82ad6b0fd88967d4d6b5e9ce",
+          "size": 6236672,
+          "pack": "fenetre-3ec5c1b9fe02"
         },
         {
           "path": "_internal/hf_xet/hf_xet.pyd",
@@ -2163,277 +2313,283 @@
           "path": "_internal/MSVCP140_1.dll",
           "sha256": "206c931bf90fdad8816de3b5e2ef80b2bcaa9406c89ecc05fe6fddffe251e982",
           "size": 35768,
-          "pack": "internal-7302caf69dc8"
+          "pack": "internal-ccc7b8d25da6"
         },
         {
           "path": "_internal/SDL2.dll",
           "sha256": "b37740a72a7a9706216df9f0134894bb7a850b356fd149398c67d874cbcfacb4",
           "size": 1586176,
-          "pack": "internal-7302caf69dc8"
+          "pack": "internal-ccc7b8d25da6"
         },
         {
           "path": "_internal/SDL2_image.dll",
           "sha256": "71607e840f462799652023d394fad7aed1f348a3cd52f88a8b3b7842fa7a3147",
           "size": 158208,
-          "pack": "internal-7302caf69dc8"
+          "pack": "internal-ccc7b8d25da6"
         },
         {
           "path": "_internal/SDL2_mixer.dll",
           "sha256": "0edd228575842920848b204cf7b9707d4159366d8ed7cee74c592462a3a503fd",
           "size": 425984,
-          "pack": "internal-7302caf69dc8"
+          "pack": "internal-ccc7b8d25da6"
         },
         {
           "path": "_internal/SDL2_ttf.dll",
           "sha256": "86febaf2ca137e417808a646b5920cdd10d7093b30a2071abde40b012c923c3d",
           "size": 1751552,
-          "pack": "internal-7302caf69dc8"
+          "pack": "internal-ccc7b8d25da6"
         },
         {
           "path": "_internal/_asyncio.pyd",
           "sha256": "c833cfdab82da58163acdada02cdb2b92d42bc543e1b5519dbcbe4d3805a98fc",
           "size": 79072,
-          "pack": "internal-7302caf69dc8"
+          "pack": "internal-ccc7b8d25da6"
         },
         {
           "path": "_internal/_bz2.pyd",
           "sha256": "9590a3f4b7c0801cd379341d40bb89b5dc9a4e232c9498b6f3bc6b5e99d4ae7f",
           "size": 87776,
-          "pack": "internal-7302caf69dc8"
+          "pack": "internal-ccc7b8d25da6"
         },
         {
           "path": "_internal/_cffi_backend.cp314-win_amd64.pyd",
           "sha256": "9e99b2184c60f21a88cafc374386ded3559e8694ed7cf111f2869e066d303334",
           "size": 181248,
-          "pack": "internal-7302caf69dc8"
+          "pack": "internal-ccc7b8d25da6"
         },
         {
           "path": "_internal/_ctypes.pyd",
           "sha256": "adf71d85781a2fe937fcc44c0961498e2cf30849f9863ff7b5f7510817cea952",
           "size": 143072,
-          "pack": "internal-7302caf69dc8"
+          "pack": "internal-ccc7b8d25da6"
         },
         {
           "path": "_internal/_decimal.pyd",
           "sha256": "9605f332fb52636d77a3125abc7e42ba22b3838dcf136d81f37fe5875cbd62d6",
           "size": 290016,
-          "pack": "internal-7302caf69dc8"
+          "pack": "internal-ccc7b8d25da6"
         },
         {
           "path": "_internal/_hashlib.pyd",
           "sha256": "9052a85ac9947afbbdfdd62b0cad7501b668e6107832cefaa4b76377d710dae0",
           "size": 68832,
-          "pack": "internal-7302caf69dc8"
+          "pack": "internal-ccc7b8d25da6"
         },
         {
           "path": "_internal/_lzma.pyd",
           "sha256": "9ff9f63ad79f161722106e029b4c3afc6494848fd73f9bcc2ed5434a15c71bde",
           "size": 160992,
-          "pack": "internal-7302caf69dc8"
+          "pack": "internal-ccc7b8d25da6"
         },
         {
           "path": "_internal/_multiprocessing.pyd",
           "sha256": "7606f4044ffc923eac208f5bc5acb1dea14fe8edf2efe08a63e11177f4c7a016",
           "size": 38624,
-          "pack": "internal-7302caf69dc8"
+          "pack": "internal-ccc7b8d25da6"
         },
         {
           "path": "_internal/_overlapped.pyd",
           "sha256": "8f35ff35e76a2308ce0a50200fb01b55569f30952098239f7e000f3da1393a61",
           "size": 58080,
-          "pack": "internal-7302caf69dc8"
+          "pack": "internal-ccc7b8d25da6"
         },
         {
           "path": "_internal/_queue.pyd",
           "sha256": "51a3d8e40b061db4fc77f9a3b18e6c2f912c4edf467e46c95ac325d35f2be4df",
           "size": 36576,
-          "pack": "internal-7302caf69dc8"
+          "pack": "internal-ccc7b8d25da6"
         },
         {
           "path": "_internal/_socket.pyd",
           "sha256": "11f2ace2a37e59bf0f2fcfcc2523307408fa2e7f0aec561bc7531a8db130a83c",
           "size": 87776,
-          "pack": "internal-7302caf69dc8"
+          "pack": "internal-ccc7b8d25da6"
         },
         {
           "path": "_internal/_sqlite3.pyd",
           "sha256": "33e91d0de7924180012c86efb17611ec589b93f90b321ed9ec3c2f4c99fae5be",
           "size": 133344,
-          "pack": "internal-7302caf69dc8"
+          "pack": "internal-ccc7b8d25da6"
         },
         {
           "path": "_internal/_ssl.pyd",
           "sha256": "56fdbe70896e4b3c6d4e8897fad1d011129354172566832371289edca0d85a21",
           "size": 193248,
-          "pack": "internal-7302caf69dc8"
+          "pack": "internal-ccc7b8d25da6"
         },
         {
           "path": "_internal/_uuid.pyd",
           "sha256": "ad949327a9730feefc7f2c14db9b1b43f4351df1aad3688dc1e68e4a23f7e81c",
           "size": 28384,
-          "pack": "internal-7302caf69dc8"
+          "pack": "internal-ccc7b8d25da6"
         },
         {
           "path": "_internal/_wmi.pyd",
           "sha256": "c8f6705d2da1be12b10050a1311b7c865fd79f11404cfad1a70b3f8962051056",
           "size": 40160,
-          "pack": "internal-7302caf69dc8"
+          "pack": "internal-ccc7b8d25da6"
+        },
+        {
+          "path": "_internal/_zoneinfo.pyd",
+          "sha256": "cbc875a462df36415e17c1ef182e50b541697e4d5ef9199c38737888de4317ad",
+          "size": 51936,
+          "pack": "internal-ccc7b8d25da6"
         },
         {
           "path": "_internal/_zstd.pyd",
           "sha256": "7a7b50c580428daf3d43c87b121988d2e8c7af9533fa2195f1aef8652fc2c489",
           "size": 503520,
-          "pack": "internal-7302caf69dc8"
+          "pack": "internal-ccc7b8d25da6"
         },
         {
           "path": "_internal/freetype.dll",
           "sha256": "1c487392d6d06970ba3c7b52705881f1fb069f607243499276c2f0c033c7df6f",
           "size": 654336,
-          "pack": "internal-7302caf69dc8"
+          "pack": "internal-ccc7b8d25da6"
         },
         {
           "path": "_internal/libcrypto-3.dll",
           "sha256": "75495fe0e079ab00d49be740d3c710a0b94e3f74f9648cb7cc9f768fc7f52319",
           "size": 6021880,
-          "pack": "internal-7302caf69dc8"
+          "pack": "internal-ccc7b8d25da6"
         },
         {
           "path": "_internal/libffi-8.dll",
           "sha256": "eff52743773eb550fcc6ce3efc37c85724502233b6b002a35496d828bd7b280a",
           "size": 39696,
-          "pack": "internal-7302caf69dc8"
+          "pack": "internal-ccc7b8d25da6"
         },
         {
           "path": "_internal/libjpeg-62.dll",
           "sha256": "207c139e6029741b786d08942dbad54127520b361dda56228e660e4d556d8ca1",
           "size": 1147092,
-          "pack": "internal-7302caf69dc8"
+          "pack": "internal-ccc7b8d25da6"
         },
         {
           "path": "_internal/libogg-0.dll",
           "sha256": "76344182f53695db65fca5921ab4e478cdf2f954d86628b27dab0fb9327bf2e7",
           "size": 32768,
-          "pack": "internal-7302caf69dc8"
+          "pack": "internal-ccc7b8d25da6"
         },
         {
           "path": "_internal/libopus-0.dll",
           "sha256": "064aaa2aee76ac93df0f9ec78a670a49954e3f4ac1bc1fd70ebda2f035ccc073",
           "size": 367616,
-          "pack": "internal-7302caf69dc8"
+          "pack": "internal-ccc7b8d25da6"
         },
         {
           "path": "_internal/libopusfile-0.dll",
           "sha256": "31f695d1e45596aa29a3fa4e694ce3a5355216ddc74d15f1b3739cc09bbda529",
           "size": 48640,
-          "pack": "internal-7302caf69dc8"
+          "pack": "internal-ccc7b8d25da6"
         },
         {
           "path": "_internal/libpng16-16.dll",
           "sha256": "fb243cedb9b55b9095596be133636f7681f31a4b0d2ab54607551addb1f60902",
           "size": 248832,
-          "pack": "internal-7302caf69dc8"
+          "pack": "internal-ccc7b8d25da6"
         },
         {
           "path": "_internal/libssl-3.dll",
           "sha256": "8957182a9c385bfd9f3f790921de2ddc614cf91f99edbed4e9e5446a46504e32",
           "size": 1308920,
-          "pack": "internal-7302caf69dc8"
+          "pack": "internal-ccc7b8d25da6"
         },
         {
           "path": "_internal/libtiff-5.dll",
           "sha256": "32a7816d6480f06bc5b8b030f134852b0e2d9f07fc3a4c06e0419a7f3b77671b",
           "size": 385536,
-          "pack": "internal-7302caf69dc8"
+          "pack": "internal-ccc7b8d25da6"
         },
         {
           "path": "_internal/libwavpack-1.dll",
           "sha256": "eb288e9e8d18e5477dcaffd49712daa393bcb58f8dbd988027a53a8684654ee7",
           "size": 171520,
-          "pack": "internal-7302caf69dc8"
+          "pack": "internal-ccc7b8d25da6"
         },
         {
           "path": "_internal/libwebp-7.dll",
           "sha256": "6f9a53679ef7b9b55cd479bc5ef840e196368630e7930b8669bd3a1a6c0ddc75",
           "size": 444416,
-          "pack": "internal-7302caf69dc8"
+          "pack": "internal-ccc7b8d25da6"
         },
         {
           "path": "_internal/libwebpdemux-2.dll",
           "sha256": "53645d4daf4379e8e454d28d6eaaf2949ab0f1686b2fc3edf529b5f2560dd971",
           "size": 24064,
-          "pack": "internal-7302caf69dc8"
+          "pack": "internal-ccc7b8d25da6"
         },
         {
           "path": "_internal/libxmp.dll",
           "sha256": "53e9650b772fc510f70d5e307e8c7802fb205124113c1f1d994d2142b2b39d05",
           "size": 413696,
-          "pack": "internal-7302caf69dc8"
+          "pack": "internal-ccc7b8d25da6"
         },
         {
           "path": "_internal/msvcp140.dll",
           "sha256": "7c26614e1d733892c2deac7e245ce115504b1d80592dd0a01b08e3e5a55f89ca",
           "size": 643512,
-          "pack": "internal-7302caf69dc8"
+          "pack": "internal-ccc7b8d25da6"
         },
         {
           "path": "_internal/portmidi.dll",
           "sha256": "c9f8d9043ac1570b10f104f2d00aec791f56261c84ee40773be73d0a3822e013",
           "size": 41984,
-          "pack": "internal-7302caf69dc8"
+          "pack": "internal-ccc7b8d25da6"
         },
         {
           "path": "_internal/pyexpat.pyd",
           "sha256": "87b0f7401749bd19bddf8872c17965a99142928fdefab0b513ded9c116f3da6b",
           "size": 202464,
-          "pack": "internal-7302caf69dc8"
+          "pack": "internal-ccc7b8d25da6"
         },
         {
           "path": "_internal/python3.dll",
           "sha256": "7bb0a7df2d5cb829319dd8d122039843e2a762361bb5a61bb5d24ca34f4040b5",
           "size": 73952,
-          "pack": "internal-7302caf69dc8"
+          "pack": "internal-ccc7b8d25da6"
         },
         {
           "path": "_internal/python314.dll",
           "sha256": "d8a06cc6ca3348925ea29e343e1c5c5895fe0bb433ff913e1cee44caf358aa6a",
           "size": 6816992,
-          "pack": "internal-7302caf69dc8"
+          "pack": "internal-ccc7b8d25da6"
         },
         {
           "path": "_internal/select.pyd",
           "sha256": "0da869c017fd3231cfc1c1e4c4bef1bb7bf5cba38236e6d7bf1630c3507c5a1d",
           "size": 33504,
-          "pack": "internal-7302caf69dc8"
+          "pack": "internal-ccc7b8d25da6"
         },
         {
           "path": "_internal/sqlite3.dll",
           "sha256": "99c296ca2b4372418edbdcbd923ab0df2cdbcf406782694d7376f2b01e5010c9",
           "size": 1584864,
-          "pack": "internal-7302caf69dc8"
+          "pack": "internal-ccc7b8d25da6"
         },
         {
           "path": "_internal/unicodedata.pyd",
           "sha256": "4c4e9f9e71e299a7e0093830e79f955f2b12b4eb0a6bb45003d42256b6e5985d",
           "size": 758496,
-          "pack": "internal-7302caf69dc8"
+          "pack": "internal-ccc7b8d25da6"
         },
         {
           "path": "_internal/vcruntime140.dll",
           "sha256": "d1f4225df2cd877dbf130d5668a021dce3f94118455ff5ec952061c30afc9ce7",
           "size": 178616,
-          "pack": "internal-7302caf69dc8"
+          "pack": "internal-ccc7b8d25da6"
         },
         {
           "path": "_internal/vcruntime140_1.dll",
           "sha256": "a7146c08f89fe5b04541ab507cdb59ff7b44534d4ba3c668a426c6450a03434e",
           "size": 50112,
-          "pack": "internal-7302caf69dc8"
+          "pack": "internal-ccc7b8d25da6"
         },
         {
           "path": "SimCoach.exe",
-          "sha256": "e8ba2dd5021b5670522f30e4a15f02c4714f92be1277886e4dd7901bf8fa8fe6",
-          "size": 12702487,
-          "pack": "moteur-b9a4a6f39726"
+          "sha256": "5dcd3bc812d75b7e2678bb30f3694f0a8cc05d0cbab2b71808fc347405da3618",
+          "size": 17785236,
+          "pack": "moteur-85b6bc88a8ff"
         },
         {
           "path": "_internal/numpy-2.5.5.dist-info/DELVEWHEEL",
@@ -4998,6 +5154,12 @@
           "pack": "piper-6ed2f003b65e"
         },
         {
+          "path": "_internal/pydantic_core/_pydantic_core.cp314-win_amd64.pyd",
+          "sha256": "81e657e56178d1ed431978dac47377f69eaf6e84ca47c56d3089dcacef555ee2",
+          "size": 5816832,
+          "pack": "pydantic_core-1dd2641201ae"
+        },
+        {
           "path": "_internal/pygame/SDL2.dll",
           "sha256": "b37740a72a7a9706216df9f0134894bb7a850b356fd149398c67d874cbcfacb4",
           "size": 1586176,
@@ -5311,9 +5473,9 @@
         },
         {
           "path": "_internal/base_library.zip",
-          "sha256": "109656bbdf9a2408e2f39d4295e387414146caddcc3449791a9fa887195c7a77",
+          "sha256": "8d567de4b5bbd84d48acf882a7973b9e1a74eb650074eee314dacd3fccae3bbc",
           "size": 1396401,
-          "pack": "stdlib-a2dbd067f215"
+          "pack": "stdlib-3efbb2d50846"
         },
         {
           "path": "_internal/tokenizers-0.23.3.dist-info/INSTALLER",
@@ -5543,30 +5705,30 @@
           "sha256": "ddeb7e1adc60e971288513330a931e5a7530e466709b7871f2151dcca03e906c",
           "size": 20683681
         },
-        "divers-019a22e0cde5": {
-          "url": "https://github.com/SimCoachDev/simcoach-releases/releases/download/v0.28.0-test.202611201848/SimCoach-pack-divers-019a22e0cde5.zip",
-          "sha256": "e7b6f0390e10693c3999cddba0d3bd570c02579210c5daebd1abdbf31afc2ced",
-          "size": 2055180
+        "divers-2e910eed7bf7": {
+          "url": "https://github.com/SimCoachDev/simcoach-releases/releases/download/v0.29.0-test.202611202139/SimCoach-pack-divers-2e910eed7bf7.zip",
+          "sha256": "9a1a08a61085d6d56357faf2c81b1f9b0f96ea8f022b8abda26352825a64dc78",
+          "size": 2329388
         },
-        "fenetre-76c36f3c49f1": {
-          "url": "https://github.com/SimCoachDev/simcoach-releases/releases/download/v0.28.0-test.202611201908/SimCoach-pack-fenetre-76c36f3c49f1.zip",
-          "sha256": "b32c3d8b9528b4321384fdb6d312033bdb0c74c0a50d6ec197b41bb34b31e44e",
-          "size": 2082173
+        "fenetre-3ec5c1b9fe02": {
+          "url": "https://github.com/SimCoachDev/simcoach-releases/releases/download/v0.33.0-test.202611211207/SimCoach-pack-fenetre-3ec5c1b9fe02.zip",
+          "sha256": "d10d10a195f4c4adb9b551213d8c96529241c57d186fd6913103498f85890e11",
+          "size": 2082410
         },
         "hf_xet-349c21985ac2": {
           "url": "https://github.com/SimCoachDev/simcoach-releases/releases/download/v0.28.0-test.202611201821/SimCoach-pack-hf_xet-349c21985ac2.zip",
           "sha256": "a95e2f893bcce401fc77300636e71f1e8441777018ac34cc03f9ce42aeb93bc0",
           "size": 3865345
         },
-        "internal-7302caf69dc8": {
-          "url": "https://github.com/SimCoachDev/simcoach-releases/releases/download/v0.28.0-test.202611201821/SimCoach-pack-internal-7302caf69dc8.zip",
-          "sha256": "44a4b53ee39fbb87ba7724ffc220b31a60abe4810cbce851e7e08c0409eb4cdc",
-          "size": 11918556
+        "internal-ccc7b8d25da6": {
+          "url": "https://github.com/SimCoachDev/simcoach-releases/releases/download/v0.29.0-test.202611202139/SimCoach-pack-internal-ccc7b8d25da6.zip",
+          "sha256": "7fce89af9915a5bc0d05f658443086037feb2ca74bcb91dacb699688a01eeb0e",
+          "size": 11946845
         },
-        "moteur-b9a4a6f39726": {
-          "url": "https://github.com/SimCoachDev/simcoach-releases/releases/download/v0.28.0-test.202611201908/SimCoach-pack-moteur-b9a4a6f39726.zip",
-          "sha256": "155665c386d93e446ef4cae37aa352e63ca18897dd21b165ad991d7511a38df3",
-          "size": 12507842
+        "moteur-85b6bc88a8ff": {
+          "url": "https://github.com/SimCoachDev/simcoach-releases/releases/download/v0.33.0-test.202611211207/SimCoach-pack-moteur-85b6bc88a8ff.zip",
+          "sha256": "fc63499a42059044e07260c3043103c59454ac407b8bb6f1afea25df0c0608a6",
+          "size": 17370383
         },
         "numpy-b5c42363a735": {
           "url": "https://github.com/SimCoachDev/simcoach-releases/releases/download/v0.28.0-test.202611201821/SimCoach-pack-numpy-b5c42363a735.zip",
@@ -5583,6 +5745,11 @@
           "sha256": "b7ee1c2321f4e4f94a4b01052bc183de249984c4437349cac321cab5b9546588",
           "size": 34150386
         },
+        "pydantic_core-1dd2641201ae": {
+          "url": "https://github.com/SimCoachDev/simcoach-releases/releases/download/v0.29.0-test.202611202139/SimCoach-pack-pydantic_core-1dd2641201ae.zip",
+          "sha256": "16f24aaa4d8d2ba59eaf2dcd0aba9b06e7b41c9b9aa4bd37afa3efaffd9c6265",
+          "size": 2222493
+        },
         "pygame-999ec6cea565": {
           "url": "https://github.com/SimCoachDev/simcoach-releases/releases/download/v0.28.0-test.202611201821/SimCoach-pack-pygame-999ec6cea565.zip",
           "sha256": "cadc27435f5f437f6b16f4f9b8a332f7f44bd8a83c770b60883b0653064934b1",
@@ -5593,10 +5760,10 @@
           "sha256": "57b0f59a91e4260b656797a43bdb8f6b21f51656658886e7097f59bec11ca0c7",
           "size": 1006819
         },
-        "stdlib-a2dbd067f215": {
-          "url": "https://github.com/SimCoachDev/simcoach-releases/releases/download/v0.28.0-test.202611201908/SimCoach-pack-stdlib-a2dbd067f215.zip",
-          "sha256": "46716f9e0d9871a3c2b820ccf038846f5516908ce968c2e4ec60e07ace555c52",
-          "size": 424490
+        "stdlib-3efbb2d50846": {
+          "url": "https://github.com/SimCoachDev/simcoach-releases/releases/download/v0.33.0-test.202611211207/SimCoach-pack-stdlib-3efbb2d50846.zip",
+          "sha256": "027ff1cf9c535e25c3aa99831ca8c90b1c67406007ae770af1a76d1ad4c1d522",
+          "size": 426356
         },
         "tokenizers-38f70a90e9b0": {
           "url": "https://github.com/SimCoachDev/simcoach-releases/releases/download/v0.28.0-test.202611201821/SimCoach-pack-tokenizers-38f70a90e9b0.zip",
@@ -5725,9 +5892,9 @@
     }
   ],
   "launcher": {
-    "version": 4,
-    "url": "https://github.com/SimCoachDev/simcoach-releases/releases/download/lanceur/SimCoach-Setup-a939e6499f7d8b75.exe",
-    "sha256": "e5813486bc065c4787a74147d362041849a7c2b92f13a86d3020ddc3e2550c04",
-    "size": 12506147
+    "version": 5,
+    "url": "https://github.com/SimCoachDev/simcoach-releases/releases/download/lanceur/SimCoach-Setup-f043c16c858aba3a.exe",
+    "sha256": "7a3d8ab5c03fabaff041dbd9aab11b34d61ad1f2a70dd09864a05471c4179165",
+    "size": 12505976
   }
 }
