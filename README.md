@@ -103,7 +103,7 @@ S'il parle, dis « Jeff » pour lui couper la parole, ou « stop » pour qu'il s
 
 | Tu dis « Jeff, … » | Effet |
 |---|---|
-| guide-moi · coaching · annonce les virages | il annonce chaque virage juste avant, avec la consigne |
+| guide-moi · coaching · annonce les virages | il annonce chaque virage juste avant, avec la consigne (passe avant le reste de la radio) |
 | arrête le guide · stop coaching | fin du guide |
 | ménage les pneus · économise le carburant | où gagner, ce que ça coûte |
 | sous-virage · survirage · traction · mieux freiner · je bloque | la cause probable et le remède |
@@ -191,7 +191,7 @@ sous-virage en sortie mesuré, sinon Jeff te dit que c'est le pilotage.
 |---|---|
 | onglet tour · onglet virages · onglet cible · rythme · onglet setup · onglet comparer · affichage | change d'onglet |
 | affichage normal · onglet live | retour à l'écran principal |
-| affichage bandeau · affichage module · coupe l'affichage | affichage par-dessus le jeu (jeu en plein écran fenêtré) |
+| affichage bandeau · affichage module · affichage coaching · coupe l'affichage | affichage par-dessus le jeu (jeu en plein écran fenêtré) |
 | assigne un bouton | apprend un bouton du volant pour changer d'onglet |
 
 ## Le tableau de bord
