@@ -112,9 +112,49 @@ Exemples : « Jeff, **l'arrière bloque au freinage virage 5** », « Jeff, **la
 | règle la voiture · propose un setup | il prépare un nouveau setup (fichier Jeff_NN) |
 | qu'est-ce qui manque à la voiture · le setup est optimal ? | ta voiture face à la plus rapide de ta catégorie |
 | setup agressif · setup doux · setup automatique | gros changements, un cran à la fois, ou selon la situation |
-| quand le setup sera prêt · combien de tours | combien de tours propres il lui faut encore |
+| il est prêt le setup ? · où en est le setup · ça avance le setup ? | combien de tours propres il lui faut encore |
+| charge le setup · donne-moi le setup (même pas fini) | il écrit le setup tout de suite avec ce qu'il sait déjà, même après un ou deux tours |
 | mieux · pareil · moins bien | ton avis après quelques tours avec un nouveau setup |
 | la voiture · le vibreur | ta réponse quand il demande la cause d'un incident |
+
+**L'application s'adapte à ton écran** : elle est dessinée pour 1920×1080 en plein écran et grandit
+avec l'écran (×1,33 en 1440p, ×2 en 4K). Sur un écran ultrawide (3440×1440), un rail fixe à droite garde
+le circuit, la radio de Jeff et le chrono visibles sur tous les onglets.
+
+**Télémétrie détaillée (ACC et LMU)** : Jeff lit aussi le débattement des suspensions, la charge et le
+carrossage de chaque pneu, la température à cœur, la position au classement ; sur LMU en plus l'appui aéro
+avant / arrière, les 3es éléments et la largeur exacte de la piste (sorties mesurées au centimètre).
+L'onglet SETUP montre le débattement utilisé et l'histogramme des amortisseurs (compression / détente,
+lente / rapide) ; l'ingénieur s'en sert pour les butées, la compression rapide et la plateforme.
+La vue « Châssis » ajoute le transfert de charge (l'avant pousse ou l'arrière est vif), la roue intérieure
+qui se déleste, le roulis et la plongée au freinage, l'essieu sur lequel l'ABS travaille, la glisse des
+pneus (LMU), les passages de rapports, l'adhérence de la piste et le vent : l'ingénieur en tire des
+réglages (barres, répartiteur, compression lente) et confirme ou non le sous-virage mesuré.
+
+**Comparer tes tours (onglet TARGET)**
+
+Tu essaies une autre trajectoire ou un autre freinage ? L'onglet TARGET montre deux tours côte à côte
+(par défaut ton dernier tour contre ton meilleur) : les deux trajectoires sur le circuit, les points de
+freinage, la vitesse à la corde, et sur le tour B, en vert là où tu gagnes du temps et en rouge là où tu
+en perds. Choisis les tours et la zone (tour, secteur, virage) en haut de l'onglet.
+
+| Tu dis « Jeff, … » | Effet |
+|---|---|
+| regarde les tours · qu'est-ce qui a changé | ton dernier tour contre ton meilleur, sur tout le tour |
+| regarde le secteur 1 | zoom sur le secteur, et ce qui a changé à la radio |
+| regarde le virage 5 | zoom sur le virage : freinage, corde, sortie, trajectoire |
+| compare le tour 5 et le tour 7 | ces deux tours-là |
+
+Quand tu le demandes, Jeff **montre** : le circuit A s'agrandit et zoome sur le freinage du virage qui compte,
+puis le circuit B passe en grand avec les courbes de frein des deux tours. Un clic ou Échap arrête l'animation.
+Chaque panneau de l'application s'agrandit d'un **double-clic** (ou bouton ⤢ en haut à droite) ; Échap le referme.
+
+**Largeur de piste et sorties** : avec les positions exactes du jeu (ACC, LMU), Jeff apprend la largeur que tu
+utilises et le vrai bord là où tes roues sont sorties. Les cartes montrent la piste avec sa largeur, une croix
+rouge à chaque sortie, et Jeff dit de combien tu es passé plus large que sur tes tours propres. Une limite de
+piste effleurée (sortie légère) compte pour moitié dans le mode reconstruction. Côté setup, les passages hors
+piste ne faussent plus la mesure d'équilibre, et des sorties larges répétées à la remise des gaz renforcent un
+sous-virage en sortie mesuré, sinon Jeff te dit que c'est le pilotage.
 
 **Séance et radio**
 
@@ -173,9 +213,23 @@ choisis « Tom » pour tout garder en local). Les mises à jour ne touchent jama
 | Le jeu n'est pas détecté | Lance une séance (pas seulement le menu). F1 25 : vérifie les réglages UDP. Le panneau « Avant de rouler » indique ce qui manque. |
 | Pas de pastille « IA ACC » | Relance ACC une fois après le premier lancement de SimCoach. |
 | Une mise à jour a échoué | Relance SimCoach : le téléchargement reprend où il s'était arrêté. Si une nouvelle version ne démarre pas, le lanceur revient tout seul à la précédente. |
+| SimCoach se ferme tout seul, ou « Programme introuvable » | L'antivirus (Windows Defender) a sans doute supprimé un fichier de SimCoach. Relance SimCoach : le fichier manquant est retéléchargé. Si ça recommence : *Sécurité Windows → Protection contre les virus → Historique de protection* → **Restaurer**, puis ajoute le dossier `%LOCALAPPDATA%\SimCoach` aux exclusions. |
 | L'affichage par-dessus le jeu n'apparaît pas | Mets le jeu en *plein écran fenêtré* ou *fenêtré sans bordure* (Windows n'affiche rien au-dessus du plein écran exclusif). |
 
 Le **journal de Jeff** (onglet AFFICHAGE) montre tout ce que fait le programme : utile pour comprendre un problème.
+
+## IA (facultatif)
+
+Une IA peut répondre aux questions que Jeff ne connaît pas (« Jeff, question… ») et écrire le débrief de fin
+de séance. Assistant → étape **IA** : choisis le fournisseur, puis *Enregistrer* et *Tester*.
+
+- **Ollama** (gratuit, sur ton PC) : installe [Ollama](https://ollama.com), puis dans un terminal
+  `ollama pull qwen2.5:7b` (ou un modèle qui tient dans ta carte graphique).
+- **Claude** (Anthropic) : colle ta clé API ([console.anthropic.com](https://console.anthropic.com)).
+- **Autre fournisseur compatible OpenAI** (OpenAI, Mistral, OpenRouter, LM Studio…) : adresse de l'API,
+  nom du modèle et clé.
+
+La clé reste sur ton PC. Avec un fournisseur en ligne, chaque question est facturée par lui.
 
 ## Désinstaller
 
