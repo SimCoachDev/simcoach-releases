@@ -1,12 +1,12 @@
 {
-  "version": "0.40.0-test.202611212210",
+  "version": "0.40.0-test.202611212229",
   "channel": "test",
-  "date": "2026-11-21 22:10",
+  "date": "2026-11-21 22:29",
   "min_launcher": 1,
   "components": [
     {
       "id": "programme",
-      "version": "0.40.0-test.202611212210",
+      "version": "0.40.0-test.202611212229",
       "when": "always",
       "dest": "app/{version}",
       "kind": "packs",
@@ -2299,9 +2299,9 @@
         },
         {
           "path": "SimCoachApp.exe",
-          "sha256": "af234f58ed6679fa38a1856eab4064a14f01d2698d9cc444e22fc333a9f37faa",
+          "sha256": "d70e3bdef87a3aa41be4e4c3710e41413c3fbe6edd347ba2ba23b94a63d7c09f",
           "size": 6236672,
-          "pack": "fenetre-b82b38e9867d"
+          "pack": "fenetre-209358fa8328"
         },
         {
           "path": "_internal/hf_xet/hf_xet.pyd",
@@ -2587,9 +2587,9 @@
         },
         {
           "path": "SimCoach.exe",
-          "sha256": "8f6467ba1b97e959021452302e5041cd391435ef089b571fce55e0cbfdf4b2fb",
-          "size": 17918327,
-          "pack": "moteur-690eda0b771f"
+          "sha256": "29b6fb78e885aeb0b7e24a52a7d7cc18a31836a5d5f4c9a039aa91fe78eb926e",
+          "size": 17919328,
+          "pack": "moteur-fb8c4f098cd2"
         },
         {
           "path": "_internal/numpy-2.5.5.dist-info/DELVEWHEEL",
@@ -5473,9 +5473,9 @@
         },
         {
           "path": "_internal/base_library.zip",
-          "sha256": "a12bf8abe4c9090956a9572e0e6d6dd7bc8d4881dcea5b3e705c1c783064a5f8",
+          "sha256": "04b73f11a678195bf122a56ba9b54eb64615af95e66302c532a4e83d7afb2ac6",
           "size": 1396401,
-          "pack": "stdlib-afbc970702e1"
+          "pack": "stdlib-1ad25a8ba6ec"
         },
         {
           "path": "_internal/tokenizers-0.23.3.dist-info/INSTALLER",
@@ -5710,10 +5710,10 @@
           "sha256": "0c2e66f7957fd107631024736b36880b2a98b9d17028c0eba931fb5a8e8f68a1",
           "size": 2329715
         },
-        "fenetre-b82b38e9867d": {
-          "url": "https://github.com/SimCoachDev/simcoach-releases/releases/download/v0.40.0-test.202611212210/SimCoach-pack-fenetre-b82b38e9867d.zip",
-          "sha256": "ba35b8fd26c547fcf5e8c0784716f092e743edfae0681dce52e36b2aa27cc373",
-          "size": 2082186
+        "fenetre-209358fa8328": {
+          "url": "https://github.com/SimCoachDev/simcoach-releases/releases/download/v0.40.0-test.202611212229/SimCoach-pack-fenetre-209358fa8328.zip",
+          "sha256": "aa2af12e3dc4bd51091432e2d2b92d303fbdf0b38c0227b559aa039b2fd6fbf2",
+          "size": 2082187
         },
         "hf_xet-349c21985ac2": {
           "url": "https://github.com/SimCoachDev/simcoach-releases/releases/download/v0.28.0-test.202611201821/SimCoach-pack-hf_xet-349c21985ac2.zip",
@@ -5725,10 +5725,10 @@
           "sha256": "7fce89af9915a5bc0d05f658443086037feb2ca74bcb91dacb699688a01eeb0e",
           "size": 11946845
         },
-        "moteur-690eda0b771f": {
-          "url": "https://github.com/SimCoachDev/simcoach-releases/releases/download/v0.40.0-test.202611212210/SimCoach-pack-moteur-690eda0b771f.zip",
-          "sha256": "44452dfe92fbad80ad19877634d45d39942380ced6a062a5a49763a53c78e4ff",
-          "size": 17503016
+        "moteur-fb8c4f098cd2": {
+          "url": "https://github.com/SimCoachDev/simcoach-releases/releases/download/v0.40.0-test.202611212229/SimCoach-pack-moteur-fb8c4f098cd2.zip",
+          "sha256": "9c8289a1ff4183aa79f9c637c56ac76e99d5d2ccca53aeb9dec0ec37ef42377b",
+          "size": 17503924
         },
         "numpy-b5c42363a735": {
           "url": "https://github.com/SimCoachDev/simcoach-releases/releases/download/v0.28.0-test.202611201821/SimCoach-pack-numpy-b5c42363a735.zip",
@@ -5760,10 +5760,10 @@
           "sha256": "57b0f59a91e4260b656797a43bdb8f6b21f51656658886e7097f59bec11ca0c7",
           "size": 1006819
         },
-        "stdlib-afbc970702e1": {
-          "url": "https://github.com/SimCoachDev/simcoach-releases/releases/download/v0.40.0-test.202611212210/SimCoach-pack-stdlib-afbc970702e1.zip",
-          "sha256": "93e961cf8043b1da99a5e8aca5f458035139bf092704ae08ded73d8dacf900e2",
-          "size": 425348
+        "stdlib-1ad25a8ba6ec": {
+          "url": "https://github.com/SimCoachDev/simcoach-releases/releases/download/v0.40.0-test.202611212229/SimCoach-pack-stdlib-1ad25a8ba6ec.zip",
+          "sha256": "4d153c04790be39d62720067a6360f9659872457014c31aad11219d6615e7ff8",
+          "size": 427221
         },
         "tokenizers-38f70a90e9b0": {
           "url": "https://github.com/SimCoachDev/simcoach-releases/releases/download/v0.28.0-test.202611201821/SimCoach-pack-tokenizers-38f70a90e9b0.zip",
